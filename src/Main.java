@@ -11,5 +11,9 @@ public class Main {
         System.out.println("Задание 1.2");
         double [] distance = {1.57, 7.654, 9.986};
 
+        //Task 1.3
+        System.out.println("Задание 1.3");
+        int [] tables = {3, 17, 12};
+
     }
 }
