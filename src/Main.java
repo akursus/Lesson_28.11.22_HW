@@ -7,5 +7,9 @@ public class Main {
         rooms [1] = 2;
         rooms [2] = 3;
 
+        //Task 1.2
+        System.out.println("Задание 1.2");
+        double [] distance = {1.57, 7.654, 9.986};
+
     }
 }
