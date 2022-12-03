@@ -1,13 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-        //Task 1.1, 2, 3
-        System.out.println("Задание 1.1, 2, 3");
+        //Task 1.1, 2, 3, 4
+        System.out.println("Задание 1.1, 2, 3, 4");
         int [] rooms = new int[3];
         rooms [0] = 1;
         rooms [1] = 2;
         rooms [2] = 3;
         System.out.print(rooms[0] +", " +rooms[1] +", " +rooms[2]+"\n");
         System.out.print(rooms[2] +", " +rooms[1] +", " +rooms[0]+"\n");
+        for (int i = 0; i < 3; i++) {
+            if (rooms[i] % 2 != 0) {
+            rooms [i] +=1;}
+            System.out.println(rooms[i]);
+        }
 
         //Task 1.2, 2, 3
         System.out.println("Задание 1.2, 2, 3");
