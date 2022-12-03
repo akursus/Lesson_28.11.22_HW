@@ -13,7 +13,7 @@ public class Main {
 
         //Task 1.3
         System.out.println("Задание 1.3");
-        int [] tables = {3, 17, 12};
+        int [] tables = {3, 17, 12, 40};
 
     }
 }
